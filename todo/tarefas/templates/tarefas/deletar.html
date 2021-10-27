@@ -1,0 +1,51 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<style>
+    h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    }
+	body{
+		background-color: #cb997e;
+	}
+
+	input{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 20px 0;
+		box-sizing: border-box;
+	}
+
+	.submit{
+	    font-weight: bolder;
+		background-color: #6BA3E8;
+	}
+
+	.center-column{
+		width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		font-weight: bolder;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+	}
+
+</style>
+
+<h1>TELA DE <strong>EXCLUSÃO DE TAREFAS<strong></h1>
+
+<div class="center-column">
+
+    <p>Tem certeza que deseja excluir <font color="red"><b>"{{ item }}"</b></font>? </p>
+
+    <a href="{% url 'lista' %}" class="btn btn-info" > CANCELAR </a>
+
+    <form method="POST" action="">
+        {% csrf_token %}
+        <input class="btn btn-danger" type="submit" name="Confirm">
+    </form>
+
+</div>
