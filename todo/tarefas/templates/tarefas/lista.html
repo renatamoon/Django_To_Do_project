@@ -53,14 +53,14 @@
 
 </style>
 
-<h1>TELA DE <strong>TAREFAS<strong></h1>
+<h1>LISTA DE <strong>TAREFAS<strong></h1>
 
 <div class="center-column">
 
     <form method='POST' action="/">
         {% csrf_token %}
         {{form.titulo}}
-        <input class="btn btn-warning" type="submit" name="Criar Tarefa">
+        <input class="btn btn-warning" type="submit" value="Criar Tarefa">
     </form>
 
     {% for tarefa in tarefas %}
