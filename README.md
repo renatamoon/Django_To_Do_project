@@ -1,6 +1,6 @@
 # Django_To_Do_project
 
-# Executando a aplicação:
+--> Executando a aplicação:
 
 *No Windows:
 
@@ -16,9 +16,10 @@
 <b>-Criando virtual environment:</b> virtualenv venv<br>
 <b>-Ativando o virtual environment:</b> .\venv\Scripts\activate<br>
 <b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
+  
+------
 
-
-<PROJETINHO APP - LISTA DE AFAZERES - COM TELA DE CADASTRO DE TAREFAS, ATUALIZAÇÃO E EXCLUSÃO DE TAREFAS >
+# PROJETINHO APP - LISTA DE AFAZERES - COM TELA DE CADASTRO DE TAREFAS, ATUALIZAÇÃO E EXCLUSÃO DE TAREFAS
 
 Abaixo a tela de cadastro e mostrando todas as tarefas cadastradas.
 
