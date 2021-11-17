@@ -14,7 +14,7 @@
 
 <b>-Baixe o repositorio<br>
 <b>-Criando virtual environment:</b> virtualenv venv<br>
-<b>-Ativando o virtual environment:</b> .\venv\Scripts\activate<br>
+<b>-Ativando o virtual environment:</b> . venv/bin/activate<br>
 <b>-Execução do arquivo requirements e instalar dependencias:</b> pip install -r requirements.txt<br>
   
 ------
