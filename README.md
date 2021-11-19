@@ -6,7 +6,7 @@
 
 <b>-Baixe o repositório <br>
 <b>-Criando virtual environment:</b> python -m venv venv<br>
-<b>-Ativando o virtual environment: </b>.venv\Scripts\Activate\ps1<br>
+<b>-Ativando o virtual environment: </b>. venv\Scripts\Activate.ps1<br>
 <b>Obs: Caso ocorra um erro na ativação:</b> entre no powershell e digite o seguinte comando: Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned<br>
 <b>-Execução do arquivo requirements: </b>pip install -r requirements.txt<br>
 
