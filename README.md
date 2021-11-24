@@ -7,7 +7,6 @@
   <a href="#tecnologias">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instalacao">Como Executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
   <a href="#imagens">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-  <a href="#links_apps">Links Úteis</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
  
 </p>
 
@@ -105,12 +104,3 @@ DATABASES = {
 - TELA DE EXCLUSÃO DE TAREFAS:
 
 ![image](https://user-images.githubusercontent.com/87100340/139124667-94881373-9cab-48c4-a4ff-573038474f91.png)
-  
-<hr>
-
-## <a id="links_apps"> 🔴 LINKS ÚTEIS </a> 
-
-*USANDO O ADMINLTE3 - Bootstrap Admin Dashboard Template<br>
-<br>
-https://adminlte.io/<br>  
-<hr>
